@@ -3,8 +3,8 @@
 #!system=ios
 
 [Script]
-http-request https:\/\/mlife\.jf365\.boc\.cn\/wcbweb\/openRedPacket\/getCustRp\.do max-size=0,script-path=https://raw.githubusercontent.com/jokerqing/BOC-RedPacket/master/BOC.js
+http-request https:\/\/mcard\.boc\.cn\/wcbweb\/openRedPacket\/getCustRp\.do max-size=0,script-path=https://raw.githubusercontent.com/jokerqing/BOC-RedPacket/master/BOC.js
 cron "0 9 * * *" script-path=https://raw.githubusercontent.com/jokerqing/BOC-RedPacket/master/BOC.js
 
 [MITM]
-hostname = %APPEND% mlife.jf356.boc.cn
+hostname = %APPEND% mcard.boc.cn
