@@ -76,10 +76,10 @@ function checkin() {
 function GetCookie() {
   var CookieName = "BOC-RedPacket";
   var CookieKey = "CookieBOC";
-  var regex = /SESSDATA=.+?;/;
+  var regex = /JSESSIONID=.+?;/;
   if ($request.headers) {
     var header = $request.headers['Cookie'] ? $request.headers['Cookie'] : "";
-    if (header.indexOf("SESSDATA=") != -1) {
+    if (header.indexOf("JSESSIONID=") != -1) {
       var CookieValue = regex.exec(header)[0];
       if ($nobyda.read(CookieKey)) {
         if ($nobyda.read(CookieKey) != CookieValue) {
