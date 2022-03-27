@@ -11,5 +11,5 @@ hostname = %APPEND% app.10086.cn
 [Rule]
 URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/common\/icon,DIRECT
 URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/common,REJECT-TINYGIF
-URL-REGEX,^https:\/\/app\.10086\.cn\/group1,REJECT-TINYGIF
-URL-REGEX,^https:\/\/app\.10086\.cn\/group2,REJECT-TINYGIF
+
+URL-REGEX,^https:\/\/app\.10086\.cn\/group1\/M00,REJECT-TINYGIF
