@@ -8,4 +8,5 @@
 hostname = %APPEND% ptf.flyertrip.com
 
 [Rule]
-DOMAIN,ptf.flyertrip.com,REJECT
+URL-REGEX,^http://ptf.flyertrip.com/common,REJECT
+#DOMAIN,ptf.flyertrip.com,REJECT
