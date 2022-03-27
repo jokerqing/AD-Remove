@@ -9,3 +9,4 @@ hostname = %APPEND% ptf.flyertrip.com
 
 [Rule]
 URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/common,REJECT
+URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/common\/icon,DIRECT
