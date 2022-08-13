@@ -1,0 +1,7 @@
+# NAME: Surge Proxy list
+DOMAIN-SUFFIX,eastwestbank.com,BWH // Added for: ttarget.eastwestbank.com:443
+DOMAIN-SUFFIX,velobank.com,BWH // Added for: mpp.velobank.com:443
+DOMAIN-SUFFIX,kustomerapp.com,BWH // Added for: curve.api.kustomerapp.com:443
+DOMAIN-SUFFIX,imaginecurve.com,BWH // Added for: cardimages.imaginecurve.com:443
+DOMAIN-SUFFIX,curve.app,BWH // Added for: clientapi.production.curve.app:443
+DOMAIN-SUFFIX,avgle.com,BWH
