@@ -22,3 +22,6 @@ URL-REGEX,^https:\/\/app\.10086\.cn\/group1\/M00\/00\/BE,REJECT
 URL-REGEX,^https:\/\/app\.10086\.cn\/group2\/M00\/06\/63,REJECT
 URL-REGEX,^https:\/\/app\.10086\.cn\/group1\/M00\/00\/CE,REJECT
 URL-REGEX,^https:\/\/app\.10086\.cn\/group2\/M00\/06\/64,REJECT
+
+[General]
+skip-proxy = %INSERT% pmbservice.bosc.cn
