@@ -2,8 +2,6 @@
 #!desc=个人用去广告
 #!system=ios
 
-[Script]
-
 [MITM]
 hostname = %APPEND% ptf.flyertrip.com, app.10086.cn
 
