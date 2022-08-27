@@ -22,4 +22,4 @@ URL-REGEX,^https:\/\/app\.10086\.cn\/group1\/M00\/00\/CE,REJECT
 URL-REGEX,^https:\/\/app\.10086\.cn\/group2\/M00\/06\/64,REJECT
 
 [General]
-skip-proxy = %INSERT% pmbservice.bosc.cn, pmbanalysis.bosc.cn, pmbmpush.bosc.cn
+skip-proxy = %INSERT% pmbservice.bosc.cn, pmbanalysis.bosc.cn, pmbmpush.bosc.cn, www.baidu.com
