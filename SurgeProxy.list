@@ -5,3 +5,6 @@ DOMAIN-SUFFIX,kustomerapp.com,BWH // Added for: curve.api.kustomerapp.com:443
 DOMAIN-SUFFIX,imaginecurve.com,BWH // Added for: cardimages.imaginecurve.com:443
 DOMAIN-SUFFIX,curve.app,BWH // Added for: clientapi.production.curve.app:443
 DOMAIN-SUFFIX,avgle.com,BWH
+DOMAIN-SUFFIX,enzo-cloud.net,BWH // Added for: accountservice.enzo-cloud.net:443
+DOMAIN-SUFFIX,americanexpress.com,BWH
+DOMAIN,api.waqi.info,PROXY
