@@ -8,3 +8,5 @@ DOMAIN-SUFFIX,avgle.com,BWH
 DOMAIN-SUFFIX,enzo-cloud.net,BWH // Added for: accountservice.enzo-cloud.net:443
 DOMAIN-SUFFIX,americanexpress.com,BWH
 DOMAIN,api.waqi.info,PROXY
+DOMAIN-SUFFIX,cloudflareclient.com,WARP
+IP-CIDR6,2606:4700:4700::1111/128,WARP
