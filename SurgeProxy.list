@@ -1,12 +1,11 @@
 # NAME: Surge Proxy list
-DOMAIN-SUFFIX,eastwestbank.com,BWH // Added for: ttarget.eastwestbank.com:443
-DOMAIN-SUFFIX,velobank.com,BWH // Added for: mpp.velobank.com:443
-DOMAIN-SUFFIX,kustomerapp.com,BWH // Added for: curve.api.kustomerapp.com:443
-DOMAIN-SUFFIX,imaginecurve.com,BWH // Added for: cardimages.imaginecurve.com:443
-DOMAIN-SUFFIX,curve.app,BWH // Added for: clientapi.production.curve.app:443
-DOMAIN-SUFFIX,avgle.com,BWH
-DOMAIN-SUFFIX,enzo-cloud.net,BWH // Added for: accountservice.enzo-cloud.net:443
-DOMAIN-SUFFIX,americanexpress.com,BWH
-DOMAIN,api.waqi.info,PROXY
-DOMAIN-SUFFIX,cloudflareclient.com,WARP
-IP-CIDR6,2606:4700:4700::1111/128,WARP
+DOMAIN-SUFFIX,eastwestbank.com
+DOMAIN-SUFFIX,velobank.com
+DOMAIN-SUFFIX,kustomerapp.com
+DOMAIN-SUFFIX,imaginecurve.com
+DOMAIN-SUFFIX,curve.app
+DOMAIN-SUFFIX,avgle.com
+DOMAIN-SUFFIX,americanexpress.com
+DOMAIN,api.waqi.info
+DOMAIN-SUFFIX,cloudflareclient.com
+IP-CIDR6,2606:4700:4700::1111/128
