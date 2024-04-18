@@ -1,0 +1,27 @@
+#!name=AD-Remove
+#!desc=CQ个人用去广告
+#!system=ios
+
+[MITM]
+hostname = %APPEND% ptf.flyertrip.com, app.10086.cn
+
+[Rule]
+# URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/common\/icon,DIRECT
+# URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/common,REJECT
+URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/common\/cf,REJECT
+URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/static\/mobile,REJECT
+
+# URL-REGEX,^https:\/\/app\.10086\.cn\/group1\/M00\/00\/CD,REJECT
+# URL-REGEX,^https:\/\/app\.10086\.cn\/group2\/M00\/06\/69,REJECT
+# URL-REGEX,^https:\/\/app\.10086\.cn\/group2\/M00\/00\/DA,REJECT
+# URL-REGEX,^https:\/\/app\.10086\.cn\/group1\/M00\/00\/C0,REJECT
+# URL-REGEX,^https:\/\/app\.10086\.cn\/group1\/M00\/00\/B5,REJECT
+# URL-REGEX,^https:\/\/app\.10086\.cn\/group1\/M00\/00\/CD,REJECT
+# URL-REGEX,^https:\/\/app\.10086\.cn\/group1\/M00\/00\/BE,REJECT
+# URL-REGEX,^https:\/\/app\.10086\.cn\/group2\/M00\/06\/63,REJECT
+# URL-REGEX,^https:\/\/app\.10086\.cn\/group1\/M00\/00\/CE,REJECT
+# URL-REGEX,^https:\/\/app\.10086\.cn\/group2\/M00\/06\/64,REJECT
+DOMAIN-SUFFIX,ef-dongfeng.tanx.com,REJECT 
+
+[General]
+skip-proxy = %INSERT% pmbservice.bosc.cn, pmbanalysis.bosc.cn, pmbmpush.bosc.cn, www.baidu.com
