@@ -10,8 +10,4 @@ hostname = %APPEND% ptf.flyertrip.com, app.10086.cn
 # URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/common,REJECT
 URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/common\/cf,REJECT-TINYGIF
 URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/static\/mobile,REJECT
-
 DOMAIN-SUFFIX,ef-dongfeng.tanx.com,REJECT 
-
-[General]
-skip-proxy = %INSERT% pmbservice.bosc.cn, pmbanalysis.bosc.cn, pmbmpush.bosc.cn, www.baidu.com
