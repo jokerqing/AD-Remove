@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% ptf.flyertrip.com, app.10086.cn, 
+hostname = %APPEND% ptf.flyertrip.com, app.10086.cn
 
 [Rule]
 # URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/common\/icon,DIRECT
