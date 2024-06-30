@@ -5,10 +5,13 @@
 ^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|jpeg|png)\?width=[0-9]{4}&height=[0-9]{4} url reject
 ^https?:\/\/d\.psbc\.com:9091\/mcc\/resources\/.+\.(jpg|jpeg) url reject-dict
 ^https:\/\/api\.mcd\.cn\/bff\/portal\/(home\/splash|richpop) url reject
-^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit url reject-200
 ^https?:\/\/ump\.sz\.creditcard\.ecitic\.com\/citiccard\/cm-ump\/ump-gateway\/ump-net-app\/ump-net-app\/adv url reject-dict
 ^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/appspace-getway\/getWay\/dkkj-system-web\/system\/v\d\/init-config url reject-200
 ^https:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/app\/adposNew\?sign url reject
 ^https:\/\/capi\.lkcoffee\.com\/resource\/m\/eorder\/product\/popAppTagProductList\?sign url reject
+^https?:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v1\/market_content\.page\.queryHasIt reject-dict
+^https?:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query reject
+^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) reject
+^https:\/\/(client\.app\.coc|h\.app\.coc|app)\.10086\.cn\/biz-orange\/DN\/emotionMarket reject
 
-hostname = midc.cdn-static.abchina.com.cn, ocrifs.ejoy.sinopec.com, imcs.citicbank.com, d.psbc.com, image.spdbccc.com.cn, api.mcd.cn, client.app.coc.10086.cn, static.95508.com, ump.sz.creditcard.ecitic.com, capi.lkcoffee.com
+hostname = midc.cdn-static.abchina.com.cn, ocrifs.ejoy.sinopec.com, imcs.citicbank.com, d.psbc.com, image.spdbccc.com.cn, api.mcd.cn, client.app.coc.10086.cn, static.95508.com, ump.sz.creditcard.ecitic.com, capi.lkcoffee.com, wap.js.10086.cn
