@@ -11,3 +11,9 @@ hostname = %APPEND% ptf.flyertrip.com, app.10086.cn
 URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/common\/cf,REJECT-TINYGIF
 URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/static\/mobile,REJECT
 DOMAIN-SUFFIX,ef-dongfeng.tanx.com,REJECT 
+DOMAIN,ad.21cn.com,REJECT
+DOMAIN,ad.k.21cn.com,REJECT
+DOMAIN,admarket.21cn.com,REJECT
+DOMAIN,adshows.21cn.com,REJECT
+IP-CIDR,122.229.8.47/32,REJECT,no-resolve
+IP-CIDR,122.229.29.89/32,REJECT,no-resolve
