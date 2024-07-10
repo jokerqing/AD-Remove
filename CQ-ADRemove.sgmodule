@@ -6,10 +6,8 @@
 hostname = %APPEND% ptf.flyertrip.com, app.10086.cn
 
 [Rule]
-# URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/common\/icon,DIRECT
-# URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/common,REJECT
-URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/common\/cf,REJECT-TINYGIF
-URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/static\/mobile,REJECT
+# URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/common\/cf,REJECT-TINYGIF
+# URL-REGEX,^https:\/\/ptf\.flyertrip\.com\/static\/mobile,REJECT
 DOMAIN-SUFFIX,ef-dongfeng.tanx.com,REJECT 
 DOMAIN,ad.21cn.com,REJECT
 DOMAIN,ad.k.21cn.com,REJECT
